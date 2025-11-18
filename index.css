@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap");
+
+body {
+  font-family: "Nunito Sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f5ff;
+  color: #222;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 50px;
+}
+
+h1 {
+  color: #3c2a73;
+  text-align: center;
+  font-size: 2.4rem;
+  margin-bottom: 16px;
+}
+
+p {
+  font-size: 1.1rem;
+  text-align: center;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+nav {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 20px auto 40px auto;
+  padding: 12px 18px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #4b3b8f;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+  background-color: #e8e2ff;
+  color: #1a1a1a;
+}
+
+img {
+  display: block;
+  margin: 40px auto;
+  border-radius: 12px;
+  border: 2px solid #ccc;
+  max-width: 90%;
+}

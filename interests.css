@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap");
+
+body {
+  font-family: "Nunito Sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff9f9;
+  color: #222;
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 30px 40px;
+}
+
+h2 {
+  color: #992e6d;
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+img {
+  display: block;
+  margin: 30px auto;
+  border-radius: 14px;
+  border: 2px solid #ccc;
+  max-width: 80%;
+}
+
+iframe {
+  display: block;
+  margin: 25px auto;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #992e6d;
+  padding: 10px 18px;
+  border-radius: 8px;
+  margin-top: 20px;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+a:hover {
+  background-color: #c94d8e;
+}
