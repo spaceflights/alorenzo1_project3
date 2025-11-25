@@ -63,3 +63,35 @@ img {
   border: 2px solid #ccc;
   max-width: 90%;
 }
+
+@media (max-width: 900px) {
+  body {
+    padding: 20px 30px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  nav ul {
+    gap: 10px;
+  }
+  img {
+    max-width: 95%;
+  }
+}
+
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    gap: 14px;
+  }
+  nav a {
+    padding: 10px 14px;
+    font-size: 1rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  h1 {
+    font-size: 1.7rem;
+  }
+}
