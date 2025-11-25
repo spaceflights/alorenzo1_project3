@@ -9,6 +9,29 @@ body {
   padding: 40px 60px;
 }
 
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  padding: 20px 0;
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  background-color: #4b3b8f;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+nav ul li a:hover {
+  background-color: #6a58c8;
+}
+
 h1 {
   text-align: center;
   color: #3c2a73;
