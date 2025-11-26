@@ -76,28 +76,57 @@ a:hover {
   background-color: #6a58c8;
 }
 
-@media (min-width: 480px) {
+@media (max-width: 768px) {
   body {
-    width: 90%;
-    padding: 30px;
+    width: 100%;
+    padding: 20px 25px;
   }
+
+  nav ul {
+    flex-direction: column;
+    gap: 12px;
+    padding: 0;
+  }
+
+  nav a {
+    width: 100%;
+    text-align: center;
+    padding: 10px 15px;
+  }
+
   h1 {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
-  img {
-    max-width: 80%;
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
   }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 480px) {
   body {
-    width: 70%;
-    padding: 40px;
+    padding: 18px;
   }
+
+  h1 {
+    font-size: 1.7rem;
+  }
+
   h2 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
-  p {
-    font-size: 1.1rem;
+
+  p,
+  li {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+
+  nav a {
+    font-size: 0.9rem;
   }
 }

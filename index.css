@@ -64,27 +64,47 @@ img {
   max-width: 90%;
 }
 
-@media (min-width: 480px) {
+@media (max-width: 768px) {
+  body {
+    padding: 20px 25px;
+  }
+
   nav {
-    max-width: 90%;
-    padding: 16px 20px;
+    max-width: 100%;
+    padding: 10px;
   }
+
   nav ul {
-    gap: 25px;
+    flex-direction: column;
+    gap: 12px;
   }
-  h1 {
-    font-size: 2.6rem;
+
+  nav a {
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+  }
+
+  img {
+    max-width: 100%;
   }
 }
 
-@media (min-width: 768px) {
-  body {
-    padding: 40px 80px;
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.8rem;
   }
-  nav {
-    max-width: 700px;
+
+  p {
+    font-size: 1rem;
   }
-  img {
-    max-width: 70%;
+
+  nav ul {
+    gap: 10px;
+  }
+
+  nav a {
+    padding: 10px;
+    font-size: 0.95rem;
   }
 }
