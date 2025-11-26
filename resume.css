@@ -9,6 +9,39 @@ body {
   padding: 40px 60px;
 }
 
+nav {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 20px auto 40px auto;
+  padding: 12px 18px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #4b3b8f;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+  background-color: #e8e2ff;
+  color: #1a1a1a;
+}
+
 h1 {
   text-align: center;
   color: #3c2a73;
@@ -85,13 +118,12 @@ a:hover {
   nav ul {
     flex-direction: column;
     gap: 12px;
-    padding: 0;
   }
 
   nav a {
     width: 100%;
     text-align: center;
-    padding: 10px 15px;
+    padding: 12px;
   }
 
   h1 {
