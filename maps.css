@@ -9,12 +9,17 @@ body {
   padding: 20px 30px;
 }
 
+nav {
+  background-color: transparent;
+  padding: 20px 0;
+}
+
 nav ul {
+  list-style: none;
   display: flex;
   justify-content: center;
   gap: 20px;
-  list-style: none;
-  padding: 20px 0;
+  padding: 0;
   margin: 0;
 }
 
@@ -30,6 +35,18 @@ nav ul li a {
 
 nav ul li a:hover {
   background-color: #6a58c8;
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  nav ul li a {
+    width: 200px;
+    text-align: center;
+  }
 }
 
 h2 {
